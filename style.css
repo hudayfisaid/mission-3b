@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+   background-color: #171717;
+}
+.header {
+    width: 100px;
+    height: 100vh;
+    background-color: #171717;
+    
+
+}
+.logo {
+    width: 60px;
+    position: relative;
+    right: 130px;
+   
+}
+ header nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 5% 5%;
+  margin-bottom: 20px;
+  background: #171717;
+
+}
+
+.list ul li {
+   list-style: none;
+}
+
+.list ul li {
+    display: inline-block;
+    margin: 0 5px;
+   
+
+}
+
+.list ul li a {
+    color: #fff;
+  text-decoration: none;
+  transition: 0.4s;
+ }
+
+ .list ul li{
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+  right: 310px;
+ }
+
+ .img {
+    
+    position: relative;
+    bottom: 70px;
+ }
+
+ .hero {
+    position: relative;
+    bottom: 250px;
+    left: 70px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 5px;
+ }
+
+ .btn1 {
+   width: 40px;
+   height: 20px;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
+   background: blue;
+   color: #fff;
+ }
+ .btn2 {
+    border: none;
+    width: 100px;
+    height: 30px;
+    background: #535353;
+    border-radius: 10px;
+    text-align: center;
+ }
+
+
+
+
+.all img{
+   
+    width: 150px;
+
+ }
+
+ .container {
+   width: 100px;
+   display: flex;
+   gap: 10px; 
+   margin: 60px;
+
+}
+
+h3{
+   color: #fff;
+   position: relative;
+   bottom: 200px;
+}
+.card {
+   width: 350px;
+   position: relative;
+   bottom: 140px;
+   right: 100px;
+}
+
+footer {
+   width: 100%;
+   background: #171717;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+}
+
+footer nav {
+   margin-top: 10px;
+}
+
+footer nav a {
+   color: #fff;
+   text-decoration: none;
+   margin: 0 10px;
+}
+
+footer nav a:hover {
+   text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {}
+
+   .container {
+       margin: 20px;
+       padding: 15px;
+   }
+
+   header {
+       padding: 5px 0;
+   }
+
+   header nav a {
+       margin: 0 5px;
+   }
+
+   .hero-section {
+       padding: 15px;
+      }
